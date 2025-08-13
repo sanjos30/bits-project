@@ -74,8 +74,7 @@ bits_project/
 │   ├── final_demo_production_scale.py   # Generate 1M+ transactions
 │   ├── improved_model_trainer.py        # LoRA training (8 epochs)
 │   ├── hybrid_financial_ai.py           # Hybrid system demo
-│   ├── presentation_dashboard.py        # Streamlit UI
-│   └── test_trained_model.py            # Model testing
+│   └── presentation_dashboard.py        # Streamlit UI
 │
 ├── 🎯 Demo & Presentation Files:
 │   ├── quick_demo.py                    # Quick system demo
@@ -84,17 +83,10 @@ bits_project/
 │   ├── presentation_demo_4_live_queries.py
 │   └── test_all_demos.py                # Comprehensive testing
 │
-├── 📚 Documentation & Guides:
-│   ├── SETUP_AND_RUN_GUIDE.md          # Detailed setup instructions
-│   ├── PRESENTATION_DEMO_GUIDE.md      # Presentation structure
-│   ├── M_Tech_Project_Implementation_Guide.md
-│   └── Enhanced_Project_Plan.md         # Technical architecture
+├── 📚 Archive & References:
+│   └── archive/                         # Original notebooks with README
 │
-└── 📓 Original Notebooks:
-    ├── 01_generate_data.ipynb           # Original data generation
-    ├── 02_Prepare_SFT_Data.ipynb       # SFT data preparation
-    ├── 03_LoRA_Train_TinyLlama_FinanceCopilot.ipynb
-    └── 04_Chat_With_LoRA_FinanceBot.ipynb
+
 ```
 
 ### **File Categories**
@@ -338,13 +330,13 @@ python quick_demo.py
 
 ### **Documentation**
 - `M_Tech_Final_Project_Report.md` - Complete academic report
-- `SETUP_AND_RUN_GUIDE.md` - Detailed setup instructions
-- `PRESENTATION_DEMO_GUIDE.md` - Presentation structure
+- `README.md` - This comprehensive guide (setup, usage, architecture)
 - `data/README.md` - Data organization and regeneration
+- `archive/README.md` - Original notebooks documentation
 
 ### **Reference Materials**
 - `report/` - WILP guidelines and senior reports
-- Original notebooks - Evolution from prototype to production
+- `archive/` - Original notebooks showing evolution from prototype to production
 
 ---
 
