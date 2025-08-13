@@ -1,0 +1,29 @@
+# Large data files (can be regenerated)
+data/production_transactions.csv
+data/production_users.csv
+
+# Model files (can be retrained)
+models/
+*.bin
+*.safetensors
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# System files
+.DS_Store
+.vscode/
+.idea/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Virtual environment
+venv/
+env/
+
+# Temporary files
+*.tmp
+*.log
