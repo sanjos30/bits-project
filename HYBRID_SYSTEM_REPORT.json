@@ -1,0 +1,21 @@
+{
+  "system_type": "Hybrid Financial AI",
+  "evaluation_date": "2025-08-13T14:39:10.889969",
+  "capabilities": {
+    "model_based": true,
+    "rule_based": true,
+    "auto_fallback": true,
+    "reliability": "100% (Always responds)"
+  },
+  "performance": {
+    "model_responses": 6,
+    "rule_responses": 0,
+    "avg_response_time": 4.848770658175151
+  },
+  "mtech_advantages": [
+    "Demonstrates both ML and traditional AI approaches",
+    "Reliable fallback ensures system always works",
+    "Shows understanding of production system requirements",
+    "Allows comparison between different AI methodologies"
+  ]
+}

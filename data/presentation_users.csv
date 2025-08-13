@@ -1,0 +1,21 @@
+user_id,name,age,profile_type,monthly_income,city,risk_tolerance,savings_rate
+demo_user_001,Anvi Konda,22,young_professional,78598,Kota,medium,0.17346755614104287
+demo_user_002,Azad Balan,33,family_oriented,138696,Muzaffarpur,high,0.3676538703114537
+demo_user_003,Oni Kannan,28,young_professional,32082,Lisatown,low,0.12810857195847775
+demo_user_004,Harini Mall,30,family_oriented,123563,Naihati,low,0.31480588387672104
+demo_user_005,Lajita Chatterjee,38,entrepreneur,155574,Cassandraton,medium,0.2767797051627726
+demo_user_006,Valerie Gray,24,young_professional,75753,Barbaraland,medium,0.20207515495539757
+demo_user_007,Bimala Buch,36,family_oriented,94118,Nadiad,low,0.1278237530140444
+demo_user_008,Roy Martin,27,young_professional,52541,Lake Joseph,high,0.17935626016660394
+demo_user_009,Yash Gade,29,young_professional,65142,Nelsonside,low,0.3919347291938112
+demo_user_010,Daksh Karnik,62,retiree,56178,Rewa,medium,0.3488213992758985
+demo_user_011,Thomas Bradley,36,entrepreneur,342698,Lake Victor,low,0.3113715508644771
+demo_user_012,Charles Mcgee,25,young_professional,48965,Hurstfurt,low,0.3565953163045441
+demo_user_013,Zachary Hicks,28,young_professional,48217,Bhubaneswar,medium,0.2907053332793201
+demo_user_014,Pahal Bhatt,50,senior_professional,177040,Carlsonmouth,medium,0.16285210923144633
+demo_user_015,Shannon Smith,47,senior_professional,239680,Mau,high,0.1513415944594291
+demo_user_016,Radhika Dugar,35,family_oriented,110589,Lake Nancyview,medium,0.1809843480352834
+demo_user_017,Chanchal Tripathi,32,entrepreneur,398935,Dindigul,medium,0.35285557605694295
+demo_user_018,Ekiya Suresh,25,young_professional,32103,Mirzapur,medium,0.22034943610669872
+demo_user_019,David Bradley,25,young_professional,67170,Shivpuri,high,0.1944033642395434
+demo_user_020,Kabir Soman,72,retiree,50071,Dehri,low,0.17946404994941575

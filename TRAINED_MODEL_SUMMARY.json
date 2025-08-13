@@ -1,0 +1,20 @@
+{
+  "model_name": "gpt2",
+  "adapter_type": "LoRA",
+  "training_completed": "2025-08-12T20:40:02.376774",
+  "training_time": "0:03:40.796754",
+  "dataset_info": {
+    "source": "Production financial transactions (1M+ transactions)",
+    "training_examples": 300,
+    "format": "Financial Q&A pairs"
+  },
+  "model_config": {
+    "lora_r": 4,
+    "lora_alpha": 8,
+    "target_modules": [
+      "c_attn"
+    ]
+  },
+  "model_location": "./models/simple_financial_lora",
+  "status": "Ready for M.Tech evaluation"
+}
