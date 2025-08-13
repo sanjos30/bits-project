@@ -1,0 +1,30 @@
+{
+  "model_name": "gpt2",
+  "adapter_type": "Enhanced LoRA",
+  "training_completed": "2025-08-13T17:07:04.007072",
+  "training_time": "2:28:26.590368",
+  "improvements": [
+    "Higher quality Q&A training data",
+    "More training epochs (3 vs 1)",
+    "Better LoRA configuration",
+    "Longer context length",
+    "More diverse financial scenarios"
+  ],
+  "dataset_info": {
+    "source": "Production financial transactions (1M+ transactions)",
+    "training_examples": 1600,
+    "format": "High-quality financial Q&A pairs",
+    "quality": "Enhanced with detailed financial calculations"
+  },
+  "model_config": {
+    "lora_r": 8,
+    "lora_alpha": 16,
+    "target_modules": [
+      "c_attn",
+      "c_proj"
+    ],
+    "epochs": 3
+  },
+  "model_location": "./models/improved_financial_lora",
+  "status": "Enhanced for M.Tech evaluation"
+}
