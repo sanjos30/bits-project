@@ -57,115 +57,125 @@ Finally, I am grateful to my family and friends for their constant encouragement
 
 # Table of Contents {#table-of-contents}
 
-[Acknowledgements	3](#acknowledgements)
+[Acknowledgements](#acknowledgements)
 
-[**Table of Contents	4**](#table-of-contents)
+[**Table of Contents**](#table-of-contents)
 
-[Abstract	5](#abstract)
+[Abstract](#abstract)
 
-[**List of Symbols & Abbreviations used	6**](#list-of-symbols-&-abbreviations-used)
+[**List of Symbols & Abbreviations used**](#list-of-symbols-&-abbreviations-used)
 
-[**List of Tables	9**](#list-of-tables)
+[**List of Tables**](#list-of-tables)
 
-[**List of Figures	11**](#list-of-figures)
+[**List of Figures**](#list-of-figures)
 
-[1\. INTRODUCTION	12](#1.-introduction)
+[1\. INTRODUCTION](#1.-introduction)
 
-[1.1 Background and Motivation	12](#1.1-background-and-motivation)
+[1.1 Background and Motivation](#1.1-background-and-motivation)
 
-[1.2 Problem Statement	12](#1.2-problem-statement)
+[1.2 Problem Statement](#1.2-problem-statement)
 
-[1.3 Research Objectives	13](#1.3-research-objectives)
+[1.3 Research Objectives](#1.3-research-objectives)
 
-[1.4 Scope and Limitations	13](#1.4-scope-and-limitations)
+[1.4 Scope and Limitations](#1.4-scope-and-limitations)
 
-[1.5 Report Organization	14](#1.5-report-organization)
+[1.5 Report Organization](#1.5-report-organization)
 
-[2\. LITERATURE REVIEW	14](#2.-literature-review)
+[2\. LITERATURE REVIEW](#2.-literature-review)
 
-[2.1 Financial AI and Robo-Advisory Systems	14](#2.1-financial-ai-and-robo-advisory-systems)
+[2.1 Financial AI and Robo-Advisory Systems](#2.1-financial-ai-and-robo-advisory-systems)
 
-[2.2 Parameter-Efficient Fine-Tuning (PEFT)	14](#2.2-parameter-efficient-fine-tuning-\(peft\))
+[2.2 Parameter-Efficient Fine-Tuning (PEFT)](#2.2-parameter-efficient-fine-tuning-\(peft\))
 
-[2.3 Synthetic Data Generation for Financial Applications	15](#2.3-synthetic-data-generation-for-financial-applications)
+[2.3 Synthetic Data Generation for Financial Applications](#2.3-synthetic-data-generation-for-financial-applications)
 
-[2.4 Hybrid AI Systems	15](#2.4-hybrid-ai-systems)
+[2.4 Hybrid AI Systems](#2.4-hybrid-ai-systems)
 
-[3\. SYSTEM DESIGN AND METHODOLOGY	16](#3.-system-design-and-methodology)
+[3\. SYSTEM DESIGN AND METHODOLOGY](#3.-system-design-and-methodology)
 
-[3.1 Overall System Architecture	16](#3.1-overall-system-architecture)
+[3.1 Overall System Architecture](#3.1-overall-system-architecture)
 
-[3.2 Enhanced Data Generation Pipeline	16](#3.2-enhanced-data-generation-pipeline)
+[3.2 Enhanced Data Generation Pipeline](#3.2-enhanced-data-generation-pipeline)
 
-[3.3 LoRA Fine-tuning Architecture	16](#3.3-lora-fine-tuning-architecture)
+[3.3 LoRA Fine-tuning Architecture](#3.3-lora-fine-tuning-architecture)
 
-[3.4 Hybrid Response System	17](#3.4-hybrid-response-system)
+[3.4 Hybrid Response System](#3.4-hybrid-response-system)
 
-[3.5 Multi-Agent Intelligence Framework	17](#3.5-multi-agent-intelligence-framework)
+[3.5 Multi-Agent Intelligence Framework](#3.5-multi-agent-intelligence-framework)
 
-[4\. IMPLEMENTATION	18](#4.-implementation)
+[4\. IMPLEMENTATION](#4.-implementation)
 
-[4.1 Development Environment and Tools	18](#4.1-development-environment-and-tools)
+[4.1 Development Environment and Tools](#4.1-development-environment-and-tools)
 
-[4.22 Data Generation Implementation	19](#4.22-data-generation-implementation)
+[4.2 Data Generation Implementation](#4.2-data-generation-implementation)
 
-[4.3 LoRA Training Implementation	19](#4.3-lora-training-implementation)
+[4.3 LoRA Training Implementation](#4.3-lora-training-implementation)
 
-[4.4 Hybrid System Integration	20](#4.4-hybrid-system-integration)
+[4.4 Hybrid System Integration](#4.4-hybrid-system-integration)
 
-[4.5 Performance Optimization	21](#4.5-performance-optimization)
+[4.5 Performance Optimization](#4.5-performance-optimization)
 
-[5\. DATA PIPELINE	22](#5.-data-pipeline)
+[5\. DATA PIPELINE](#5.-data-pipeline)
 
-[5.1 Synthetic Data	22](#5.1-synthetic-data)
+[5.1 Synthetic Data](#5.1-synthetic-data)
 
-[5.2 Data Pipeline Architecture	24](#5.2-data-pipeline-architecture)
+[5.2 Data Pipeline Architecture](#5.2-data-pipeline-architecture)
 
-[5.2.1 Synthetic Financial Data Generation	24](#5.2.1-synthetic-financial-data-generation)
+[5.2.1 Synthetic Financial Data Generation](#5.2.1-synthetic-financial-data-generation)
 
-[5.2.2 Training Data Preparation Pipeline	26](#5.2.2-training-data-preparation-pipeline)
+[5.2.2 Training Data Preparation Pipeline](#5.2.2-training-data-preparation-pipeline)
 
-[5.2.3 Data Pipeline Output Specifications	28](#5.2.3-data-pipeline-output-specifications)
+[5.2.3 Data Pipeline Output Specifications](#5.2.3-data-pipeline-output-specifications)
 
-[6\. RESULTS AND EVALUATION	28](#6.-results-and-evaluation)
+[6\. RESULTS AND EVALUATION](#6.-results-and-evaluation)
 
-[6.1 Data Generation Results	28](#6.1-data-generation-results)
+[6.1 Data Generation Results](#6.1-data-generation-results)
 
-[6.2 Model Training Results	29](#6.2-model-training-results)
+[6.2 Model Training Results](#6.2-model-training-results)
 
-[6.3 System Performance Evaluation	30](#6.3-system-performance-evaluation)
+[6.3 System Performance Evaluation](#6.3-system-performance-evaluation)
 
-[6.4 Commercial Viability Results	30](#6.4-commercial-viability-results)
+[6.4 Commercial Viability Results](#6.4-commercial-viability-results)
 
-[6.5 Comparative Analysis	30](#6.5-comparative-analysis)
+[6.5 Comparative Analysis](#6.5-comparative-analysis)
 
-[7\. CONCLUSIONS AND FUTURE WORK	31](#7.-conclusions-and-future-work)
+[7\. CONCLUSIONS AND FUTURE WORK](#7.-conclusions-and-future-work)
 
-[7.1 Summary of Achievements	31](#7.1-summary-of-achievements)
+[7.1 Summary of Achievements](#7.1-summary-of-achievements)
 
-[7.2 Key Contributions	31](#7.2-key-contributions)
+[7.2 Key Contributions](#7.2-key-contributions)
 
-[7.3 Limitations and Challenges	32](#7.3-limitations-and-challenges)
+[7.3 Limitations and Challenges](#7.3-limitations-and-challenges)
 
-[7.4 Future Research Directions	32](#7.4-future-research-directions)
+[7.4 Future Research Directions](#7.4-future-research-directions)
 
-[7.5 Impact and Significance	33](#7.5-impact-and-significance)
+[7.5 Impact and Significance](#7.5-impact-and-significance)
 
-[8\. REFERENCES	33](#8.-references)
+[8\. REFERENCES](#8.-references)
 
-[9\. APPENDICES	34](#9.-appendices)
+[9\. APPENDICES](#9.-appendices)
 
-[Appendix A: Technical Specifications	34](#appendix-a:-technical-specifications)
+[Appendix A: Technical Specifications](#appendix-a:-technical-specifications)
 
-[Appendix B: Data Samples	35](#appendix-b:-data-samples)
+[Appendix B: Data Samples](#appendix-b:-data-samples)
 
-[Appendix C: Performance Metrics	35](#appendix-c:-performance-metrics)
+[Appendix C: Performance Metrics](#appendix-c:-performance-metrics)
 
-[Appendix D: Code Structure	36](#appendix-d:-code-structure)
+[Appendix D: Code Structure](#appendix-d:-code-structure)
 
-[Appendix E: Commercial Analysis Details	36](#appendix-e:-commercial-analysis-details)
 
-[Appendix F: Sample Data	37](#appendix-f:-sample-data)
+
+[Appendix A: Technical Specifications](#appendix-a:-technical-specifications)
+
+[Appendix B: Data Samples](#appendix-b:-data-samples)
+
+[Appendix C: Performance Metrics](#appendix-c:-performance-metrics)
+
+[Appendix D: Code Structure](#appendix-d:-code-structure)
+
+[Appendix E: Commercial Analysis Details](#appendix-e:-commercial-analysis-details)
+
+[Appendix F: Sample Data](#appendix-f:-sample-data)
 
 # 
 
@@ -286,13 +296,11 @@ Enhanced Financial Intelligence System:
 
 # List of Tables {#list-of-tables}
 
-Table 1: Workflow steps illustrating synthetic data generation, prompt creation, and evaluation process
+Table 1: Scale Achievement Analysis
 
-Table 2: Query results highlighting grounding performance across scenarios
+Table 2: Training Performance Analysis
 
-Table 3: Table of dependencies
-
-Table 4: Training performance analysis
+Table 3: Key Dependencies and Libraries
 
 # 
 
@@ -466,18 +474,21 @@ Specialized agents handle different aspects of financial intelligence:
 
 **Key Dependencies**:
 
-| Title | Name |
-| :---- | :---- |
-| `transformers` (4.30.0) | Hugging Face library for model implementation |
-| `peft` (0.3.0) | Parameter-efficient fine-tuning implementation |
-| `torch` (2.0.0) | PyTorch framework for model training |
-| `transformers` (4.30.0) | Hugging Face library for model implementation |
-| `peft` (0.3.0) | Parameter-efficient fine-tuning implementation |
-| `datasets` (2.12.0):  | Data processing and management |
-| `pandas` (2.0.0)	 | Data manipulation and analysis	 |
-| `streamlit` (1.24.0) | Interactive dashboard development  |
+**Table 3: Key Dependencies and Libraries**
 
-*Table3: dependency table*
+| Library | Version | Purpose |
+| :---- | :---- | :---- |
+| `transformers` | 4.30.0 | Hugging Face library for model implementation |
+| `peft` | 0.3.0 | Parameter-efficient fine-tuning implementation |
+| `torch` | 2.0.0 | PyTorch framework for model training |
+| `datasets` | 2.12.0 | Data processing and management |
+| `pandas` | 2.0.0 | Data manipulation and analysis |
+| `streamlit` | 1.24.0 | Interactive dashboard development |
+| `plotly` | 5.14.0 | Data visualization |
+| `faker` | 18.10.1 | Synthetic data generation |
+| `numpy` | <2.0.0 | Numerical computing |
+
+
 
 **Hardware Optimization**: CPU-specific configurations optimized for 16GB RAM systems, including memory management strategies and batch size optimization.
 
@@ -758,6 +769,8 @@ The enhanced data generation pipeline achieved significant scale improvements ad
 
 **Scale Achievement Analysis**
 
+**Table 1: Scale Achievement Analysis**
+
 | Metric | Original | Enhanced | Improvement Factor |
 | :---- | :---- | :---- | :---- |
 | Total Users | 1 | 1,000 | 1000x |
@@ -779,12 +792,12 @@ The LoRA fine-tuning implementation achieved substantial improvements in model p
 
 **Training Performance Analysis**
 
+**Table 2: Training Performance Analysis**
+
 | Training Approach | Epochs | Examples | Final Loss | Loss Reduction | Training Time |
 | :---- | :---- | :---- | :---- | :---- | :---- |
 | Initial Quick | 1 | 300 | 3.22 | 6% | 3:40 |
 | Enhanced | 8 | 1,600 | 0.79 | 80% | 2:15:00 |
-
-*Table 4: Training performance analysis*
 
 **Loss Progression**: Training demonstrated consistent improvement across all 8 epochs with evaluation loss closely tracking training loss, indicating healthy learning without overfitting [4, 12]. The loss reduction from 4.007 to 0.7883 represents substantial domain adaptation success.
 
@@ -912,7 +925,7 @@ The project contributes to the growing field of financial technology by providin
 
 ## 9\. APPENDICES {#9.-appendices}
 
- The following are referred journals from the preliminary literature review.
+The following are referred journals from the preliminary literature review.
 
 * Lewis et al., 2020 – RAG: Retrieval-Augmented Generation introduced combining dense vector retrieval with transformers for grounded question answering. [Link](https://arxiv.org/pdf/2005.11401)  
 * Meta’s LLaMA, Mistral, and Ollama have enabled local deployment of large LLMs without cloud dependencies, addressing growing concerns about privacy. [Link](https://arxiv.org/abs/1702.08734)  
