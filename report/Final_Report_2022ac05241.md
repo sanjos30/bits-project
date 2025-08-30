@@ -919,7 +919,47 @@ The project contributes to the growing field of financial technology by providin
 
 ## 8\. REFERENCES {#8.-references}
 
-\[1\] Global Robo-Advisory Market Report, McKinsey & Company, 2023 \[2\] Consumer Financial Advisory Survey, PwC India, 2023 \[3\] Robo-Advisory Platforms Analysis, Deloitte Financial Services, 2023 \[4\] Hu, E. J., et al. "LoRA: Low-Rank Adaptation of Large Language Models." ICLR 2022 \[5\] Wealthfront, Betterment AUM Data, Company Reports 2023 \[6\] Markowitz, H. "Portfolio Selection." Journal of Finance, 1952 \[7\] Zhang, Z., et al. "Deep Reinforcement Learning for Portfolio Management." AAAI 2020 \[8\] Jiang, W. "Applications of Deep Learning in Stock Market Prediction." Expert Systems, 2021 \[9\] Indian Robo-Advisory Market Analysis, KPMG India, 2023 \[10\] Yang, Y., et al. "FinBERT: Financial Sentiment Analysis with Pre-trained Language Models." EMNLP 2020 \[11\] GPT Applications in Finance Survey, Financial AI Research, 2023 \[12\] Hu, E. J., et al. "LoRA: Low-Rank Adaptation of Large Language Models." ICLR 2022 \[13\] Zhang, Q., et al. "AdaLoRA: Adaptive Budget Allocation for Parameter-Efficient Fine-Tuning." ICLR 2023 \[14\] Liu, H., et al. "Few-Shot Parameter-Efficient Fine-Tuning is Better and Cheaper than In-Context Learning." NeurIPS 2022 \[15\] LoRA Applications in Sentiment Analysis, ACL 2023 \[16\] Parameter-Efficient Machine Translation, EMNLP 2023 \[17\] LoRA for Question Answering, NAACL 2023 \[18\] Financial AI Challenges and Opportunities, Journal of Financial Technology, 2023 \[19\] Income Distribution Analysis, Indian Census 2021 \[20\] Household Expenditure Survey, Reserve Bank of India, 2022 \[21\] Digital Financial Services Adoption, NITI Aayog Report, 2023
+[1] Global Robo-Advisory Market Report, McKinsey & Company, 2023
+
+[2] Consumer Financial Advisory Survey, PwC India, 2023
+
+[3] Robo-Advisory Platforms Analysis, Deloitte Financial Services, 2023
+
+[4] Hu, E. J., et al. "LoRA: Low-Rank Adaptation of Large Language Models." ICLR 2022
+
+[5] Wealthfront, Betterment AUM Data, Company Reports 2023
+
+[6] Markowitz, H. "Portfolio Selection." Journal of Finance, 1952
+
+[7] Zhang, Z., et al. "Deep Reinforcement Learning for Portfolio Management." AAAI 2020
+
+[8] Jiang, W. "Applications of Deep Learning in Stock Market Prediction." Expert Systems, 2021
+
+[9] Indian Robo-Advisory Market Analysis, KPMG India, 2023
+
+[10] Yang, Y., et al. "FinBERT: Financial Sentiment Analysis with Pre-trained Language Models." EMNLP 2020
+
+[11] GPT Applications in Finance Survey, Financial AI Research, 2023
+
+[12] Hu, E. J., et al. "LoRA: Low-Rank Adaptation of Large Language Models." ICLR 2022
+
+[13] Zhang, Q., et al. "AdaLoRA: Adaptive Budget Allocation for Parameter-Efficient Fine-Tuning." ICLR 2023
+
+[14] Liu, H., et al. "Few-Shot Parameter-Efficient Fine-Tuning is Better and Cheaper than In-Context Learning." NeurIPS 2022
+
+[15] LoRA Applications in Sentiment Analysis, ACL 2023
+
+[16] Parameter-Efficient Machine Translation, EMNLP 2023
+
+[17] LoRA for Question Answering, NAACL 2023
+
+[18] Financial AI Challenges and Opportunities, Journal of Financial Technology, 2023
+
+[19] Income Distribution Analysis, Indian Census 2021
+
+[20] Household Expenditure Survey, Reserve Bank of India, 2022
+
+[21] Digital Financial Services Adoption, NITI Aayog Report, 2023
 
 ---
 
